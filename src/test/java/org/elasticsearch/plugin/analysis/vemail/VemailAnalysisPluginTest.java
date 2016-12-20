@@ -1,4 +1,4 @@
-package org.elasticsearch.plugin;
+package org.elasticsearch.plugin.analysis.vemail;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -8,12 +8,12 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by lynn_lin on 2016/11/18.
  */
-public class MyAnalysisPluginTest {
-    private MyAnalysisPlugin analysisPinyinPlugin;
+public class VemailAnalysisPluginTest {
+    private VemailAnalysisPlugin analysisPinyinPlugin;
 
     @Before
     public void setUp() throws Exception {
-        analysisPinyinPlugin = new MyAnalysisPlugin();
+        analysisPinyinPlugin = new VemailAnalysisPlugin();
     }
 
 
